@@ -1,0 +1,11 @@
+import javax.swing.JOptionPane;
+
+public class GetInputFromKeyboard {
+    public static void main(String[] args) {
+        String name = "";
+        name = JOptionPane.showInputDialog("Jovan Busania");
+        String msg = "Hello " + name + "!";
+
+        JOptionPane.showMessageDialog(null, msg);
+    }
+}
